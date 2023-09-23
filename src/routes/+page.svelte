@@ -1,78 +1,72 @@
-<div
-	class="hero min-h-screen"
-	style="background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);"
->
+<div class="hero min-h-screen" style="background-image: url(../img/bg-3.jpeg)">
 	<div class="hero-overlay bg-opacity-60" />
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md">
-			<h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+			<h1 class="mb-5 text-5xl font-bold">C's Bakery</h1>
 			<p class="mb-5">
 				Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
 				quasi. In deleniti eaque aut repudiandae et a id nisi.
 			</p>
-			<button class="btn btn-primary">Get Started</button>
+			<button class="btn btn-primary"><a href="/menu">Order Online</a></button>
 		</div>
 	</div>
 </div>
 
-<div class="divider" />
-<h2>Mein Projects</h2>
-
-<div class="card lg:card-side bg-base-100 shadow-xl">
-	<figure><img src="https://images.unsplash.com/photo-1694028070766-f9829103a22f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEwfHFQWXNEenZKT1ljfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="Album" /></figure>
-	<div class="card-body">
-		<h2 class="card-title">New album is released!</h2>
-		<p>Click the button to listen on Spotiwhy app.</p>
-		<div class="card-actions justify-end">
-			<button class="btn btn-primary">Listen</button>
+<div class="flex flex-col w-full lg:flex-row my-5">
+	<div class="grid flex-grow card bg-base-200 rounded-box place-items-center">
+		<div class="card card-side bg-base-100 shadow-xl">
+			<figure><img src="/img/party.jpeg" alt="Cater" /></figure>
+			<div class="card-body">
+				<h2 class="card-title">Party coming up?</h2>
+				<p>Your one stop shop, no need to debate.</p>
+				<div class="card-actions justify-end">
+					<button class="btn btn-primary w-60 shadow-lg shadow-pink-500/30">Book an Event</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="divider lg:divider-horizontal">♥</div>
+	<div class="grid flex-grow card bg-base-100 lg:bg-base-300 rounded-box place-items-center">
+		<div class="card lg:card-side bg-base-100 shadow-xl">
+			<div class="card-body">
+				<h2 class="card-title">Come See Us!</h2>
+				<p>Fresh and Hot. Ordered Fresh, by You.</p>
+				<div class="card-actions justify-end">
+					<button class="btn btn-primary shadow-lg shadow-indigo-500/50">Find a Location</button>
+				</div>
+			</div>
+			<figure>
+				<img src="/img/locations.jpeg" alt="box of delicious donuts" class="donut-box" />
+			</figure>
 		</div>
 	</div>
 </div>
 
-<div class="card lg:card-side bg-base-100 shadow-xl">
-	<figure><img src="https://images.unsplash.com/photo-1692305416355-dd61ca199c8e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE4fHFQWXNEenZKT1ljfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="Album" /></figure>
-	<div class="card-body">
-		<h2 class="card-title">New album is released!</h2>
-		<p>Click the button to listen on Spotiwhy app.</p>
-		<div class="card-actions justify-end">
-			<button class="btn btn-primary">Listen</button>
+<div class="card glass">
+	<div class="card-body text-center">
+		<h2 class="text-4xl font-bold my-8">Flavor-Full</h2>
+		<p class="my-4">Heard You were looking for Flavors. Come Find your Sweet Spot. The Real One.</p>
+		<div class="card-actions justify-center space-x-10">
+			<a href="/menu" class="hover:animate-bounce"
+				><span class="material-symbols-outlined three"> menu_book </span></a
+			>
+			<a href="" class="hover:scale-110"
+				><span class="material-symbols-outlined three"> local_shipping </span></a
+			>
+			<a href="" class="hover:animate-bounce"
+				><span class="material-symbols-outlined three"> celebration </span></a
+			>
+			<a href="" class="hover:scale-110"
+				><span class="material-symbols-outlined three"> volunteer_activism </span></a
+			>
+			<a href="" class="hover:animate-bounce"
+				><span class="material-symbols-outlined three"> location_on </span></a
+			>
+			<a href="" class="hover:scale-110"
+				><span class="material-symbols-outlined three"> box </span></a
+			>
 		</div>
 	</div>
-</div>
-
-<div class="carousel rounded-box">
-	<div class="carousel-item">
-		<img src="https://images.unsplash.com/photo-1610380266984-3733c444deb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXJpZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="aries" />
-	</div>
-	<div class="carousel-item">
-		<img src="https://images.unsplash.com/photo-1583347866477-a0f3551c3a1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9zZWlkb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="poseidon" />
-	</div>
-	<div class="carousel-item">
-		<img src="https://images.unsplash.com/photo-1559388774-2ec54b7fa87e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1lcmN1cnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="mercury" />
-	</div>
-	<div class="carousel-item">
-		<img src="https://images.unsplash.com/photo-1561951336-6b3400d109fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGp1cGl0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Burger" />
-	</div>
-	<div class="carousel-item">
-		<img src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGp1cGl0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Burger" />
-	</div>
-	<div class="carousel-item">
-		<img src="https://media.istockphoto.com/id/1455922625/photo/jupiter-lighthouse.webp?b=1&s=170667a&w=0&k=20&c=bOMfFhNmu54Y7qC3ki3pYwCDiyhJ13jM0rFsP0jwC0U=60" alt="Burger" />
-	</div>
-	<div class="carousel-item">
-		<img src="https://images.unsplash.com/photo-1662994314076-68a7573a1e23?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGhvdGh8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Burger" />
-	</div>
-</div>
-
-<div class="divider" />
-
-
-<div class="mx-30">
-    <progress class="progress progress-error w-56" value="0" max="100" />
-    <progress class="progress progress-error w-56" value="10" max="100" />
-    <progress class="progress progress-error w-56" value="40" max="100" />
-    <progress class="progress progress-error w-56" value="70" max="100" />
-    <progress class="progress progress-error w-56" value="100" max="100" />
 </div>
 
 <footer class="footer footer-center p-10 bg-primary text-primary-content">
@@ -90,7 +84,7 @@
 			/></svg
 		>
 		<p class="font-bold">
-			ACME Industries Ltd. <br />Providing reliable tech since 1992
+			CC's Bakery <br />Sweet Treat Capitol since 1992
 		</p>
 		<p>Copyright © 2023 - All right reserved</p>
 	</aside>
@@ -136,15 +130,14 @@
 	</nav>
 </footer>
 
-
 <style>
-    img {
-        width: 250px;
-        height: 375px;
-    }
+	img {
+		width: 250px;
+		height: 375px;
+	}
 
-    .carousel img {
-        width: 325px;
-        height: 425px;
-    }
+	.carousel img {
+		width: 325px;
+		height: 425px;
+	}
 </style>
