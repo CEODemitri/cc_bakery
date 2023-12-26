@@ -2,69 +2,73 @@
 	<div class="hero-overlay bg-opacity-60" />
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md">
-			<h1 class="mb-5 text-5xl font-bold">C's Bakery</h1>
+			<h1 class="mb-5 text-5xl font-bold">
+				C<span class="text-xl relative bottom-3 m-1">&</span>C's Bakery
+			</h1>
 			<p class="mb-5">
 				Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
 				quasi. In deleniti eaque aut repudiandae et a id nisi.
 			</p>
-			<button class="btn btn-primary"><a href="/menu">Order Online</a></button>
+			<!-- in page navigation: hero section -->
+			<div class="flex flex-col">
+				<button class="btn btn-primary"><a href="/menu">Order Online</a></button>
+				<a href="#" class="relative top-60">Hint: Scroll Down For More</a>
+			</div>
 		</div>
 	</div>
 </div>
 
-<div class="flex flex-col w-full lg:flex-row my-5">
-	<div class="grid flex-grow card bg-base-200 rounded-box place-items-center">
-		<div class="card card-side bg-base-100 shadow-xl">
-			<figure><img src="/img/party.jpeg" alt="Cater" /></figure>
-			<div class="card-body">
-				<h2 class="card-title">Party coming up?</h2>
-				<p>Your one stop shop, no need to debate.</p>
-				<div class="card-actions justify-end">
-					<button class="btn btn-primary w-60 shadow-lg shadow-pink-500/30">Book an Event</button>
-				</div>
+<!-- three categories here -->
+<!-- cookies, cakes, pies -->
+<!-- cookies -->
+<div class="flex flex-wrap justify-center gap-4 m-4">
+	<div class="card w-96 bg-base-100 shadow-xl image-full">
+		<figure>
+			<img
+				src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+				alt="Shoes"
+			/>
+		</figure>
+		<div class="card-body">
+			<h2 class="card-title text-2xl">Cookies</h2>
+			<p>If a dog chews shoes whose shoes does he choose?</p>
+			<div class="card-actions justify-end">
+				<button class="btn btn-primary">Buy Now</button>
 			</div>
 		</div>
 	</div>
-	<div class="divider lg:divider-horizontal">♥</div>
-	<div class="grid flex-grow card bg-base-100 lg:bg-base-300 rounded-box place-items-center">
-		<div class="card lg:card-side bg-base-100 shadow-xl">
-			<div class="card-body">
-				<h2 class="card-title">Come See Us!</h2>
-				<p>Fresh and Hot. Ordered Fresh, by You.</p>
-				<div class="card-actions justify-end">
-					<button class="btn btn-primary shadow-lg shadow-indigo-500/50">Find a Location</button>
-				</div>
-			</div>
-			<figure>
-				<img src="/img/locations.jpeg" alt="box of delicious donuts" class="donut-box" />
-			</figure>
-		</div>
-	</div>
-</div>
 
-<div class="card glass">
-	<div class="card-body text-center">
-		<h2 class="text-4xl font-bold my-8">Flavor-Full</h2>
-		<p class="my-4">Heard You were looking for Flavors. Come Find your Sweet Spot. The Real One.</p>
-		<div class="card-actions justify-center space-x-10">
-			<a href="/menu" class="hover:animate-bounce"
-				><span class="material-symbols-outlined three"> menu_book </span></a
-			>
-			<a href="" class="hover:scale-110"
-				><span class="material-symbols-outlined three"> local_shipping </span></a
-			>
-			<a href="" class="hover:animate-bounce"
-				><span class="material-symbols-outlined three"> celebration </span></a
-			>
-			<a href="" class="hover:scale-110"
-				><span class="material-symbols-outlined three"> volunteer_activism </span></a
-			>
-			<a href="" class="hover:animate-bounce"
-				><span class="material-symbols-outlined three"> location_on </span></a
-			>
-			<a href="" class="hover:scale-110"
-				><span class="material-symbols-outlined three"> box </span></a
-			>
+	<!-- cakes -->
+	<div class="card w-96 bg-base-100 shadow-xl image-full">
+		<figure>
+			<img
+				src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+				alt="Shoes"
+			/>
+		</figure>
+		<div class="card-body">
+			<h2 class="card-title text-2xl">Cakes</h2>
+			<p>If a dog chews shoes whose shoes does he choose?</p>
+			<div class="card-actions justify-end">
+				<button class="btn btn-primary">Buy Now</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- pies -->
+	<div class="card w-96 bg-base-100 shadow-xl image-full">
+		<figure>
+			<img
+				src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+				alt="Shoes"
+			/>
+		</figure>
+		<div class="card-body">
+			<h2 class="card-title text-2xl">Pies</h2>
+			<p>If a dog chews shoes whose shoes does he choose?</p>
+			<div class="card-actions justify-end">
+				<button class="btn btn-primary">Buy Now</button>
+			</div>
 		</div>
 	</div>
 </div>
@@ -134,10 +138,5 @@
 	img {
 		width: 250px;
 		height: 375px;
-	}
-
-	.carousel img {
-		width: 325px;
-		height: 425px;
 	}
 </style>
