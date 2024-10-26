@@ -2,72 +2,13 @@
 	<div class="hero-overlay bg-opacity-60" />
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md">
-			<h1 class="mb-5 text-5xl font-bold">
-				C<span class="text-xl relative bottom-3 m-1">&</span>C's Bakery
-			</h1>
-			<p class="mb-5">
-				Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-				quasi. In deleniti eaque aut repudiandae et a id nisi.
-			</p>
+			<h1 class="text-6xl font-semibold headline">cc bakery</h1>
+			<p class="mb-10 text-[20px]">sweets and treats</p>
+			<p class="mb-5">SITE UPDATE IN PROGRESS.</p>
 			<!-- in page navigation: hero section -->
 			<div class="flex flex-col">
-				<button class="btn btn-primary"><a href="/menu">Order Online</a></button>
+				<button class="btn btn-primary"><a href="/menu">Sign up for Updates</a></button>
 				<a href="#" class="relative top-60">Hint: Scroll Down For More</a>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- three categories here -->
-<!-- cookies, cakes, pies -->
-<!-- cookies -->
-<div class="flex flex-wrap justify-center gap-4 m-4">
-	<div class="card w-96 bg-base-100 shadow-xl image-full">
-		<figure>
-			<img
-				src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-				alt="Shoes"
-			/>
-		</figure>
-		<div class="card-body">
-			<h2 class="card-title text-2xl">Cookies</h2>
-			<p>If a dog chews shoes whose shoes does he choose?</p>
-			<div class="card-actions justify-end">
-				<button class="btn btn-primary">Buy Now</button>
-			</div>
-		</div>
-	</div>
-
-	<!-- cakes -->
-	<div class="card w-96 bg-base-100 shadow-xl image-full">
-		<figure>
-			<img
-				src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-				alt="Shoes"
-			/>
-		</figure>
-		<div class="card-body">
-			<h2 class="card-title text-2xl">Cakes</h2>
-			<p>If a dog chews shoes whose shoes does he choose?</p>
-			<div class="card-actions justify-end">
-				<button class="btn btn-primary">Buy Now</button>
-			</div>
-		</div>
-	</div>
-
-	<!-- pies -->
-	<div class="card w-96 bg-base-100 shadow-xl image-full">
-		<figure>
-			<img
-				src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-				alt="Shoes"
-			/>
-		</figure>
-		<div class="card-body">
-			<h2 class="card-title text-2xl">Pies</h2>
-			<p>If a dog chews shoes whose shoes does he choose?</p>
-			<div class="card-actions justify-end">
-				<button class="btn btn-primary">Buy Now</button>
 			</div>
 		</div>
 	</div>
@@ -135,6 +76,24 @@
 </footer>
 
 <style>
+	* {
+		font-family: 'Lexend Deca', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5 {
+		font-family: 'Beiruti', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 600;
+		font-style: normal;
+	}
+
 	img {
 		width: 250px;
 		height: 375px;
